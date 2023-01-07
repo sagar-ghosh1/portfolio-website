@@ -5,32 +5,47 @@
     /* border: 1px solid red; */
 }
 
-.header-container {
-    width: 100%;
+.header {
+    display: flex;
     height: 100vh;
-    background-image: url("../images/banner/banner3.png");
-    background-repeat: no-repeat;
+    background: url("../images/banner/banner3.png");
     background-size: cover;
-    margin-bottom: 130px;
+    justify-content: end;
+}
+
+.header .header-content {
+    padding: 150px 170px;
+    text-align: right;
 }
 
 .header-title {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    text-align: right;
-    color: #FFFFFF;
+    color: white;
+    padding-bottom: 24px;
 }
 
-.header-discription {
-    line-height: 26px;
-    text-align: right;
-    color: #FFFFFF;
+.header-dispription {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 32px;
 }
 
 .header-btn {
-    background: #FFFFFF;
+    padding: 15px 20px;
+    border: none;
     border-radius: 5px;
+}
+
+.header-btn a {
+    color: #005FAC;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
 }
 
 /* my-failures-area */
