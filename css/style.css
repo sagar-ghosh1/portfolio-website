@@ -145,3 +145,84 @@
 
 
 /* footer section  */
+
+.footer-container {
+    width: 100%;
+    height: 577px;
+    background: #151414;
+}
+
+.footer-contain {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px;
+}
+
+.footer-dataiel-info {
+    width: 485px;
+    height: 317px;
+}
+
+.footer-dataiel-title h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-dataiel-discription p {
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer-dataiel-email p {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-dataiel-phone p {
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.footer-dataiel-icon {
+    display: flex;
+    gap: 18px;
+}
+
+.footer-subscribe {
+    width: 325px;
+    height: 204px;
+}
+
+.footer-subscribe-titel {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.footer-email-area {
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    background: #151414;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.footer-subscribe-btn {
+    width: 170px;
+    height: 64px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 8px;
+}
