@@ -52,11 +52,11 @@
     margin-bottom: 16px;
 }
 
-.my-failures-details ul {
-    line-height: 26px;
-}
 
 /* plant area  */
+.my-plant-container {
+    margin-bottom: 125px;
+}
 
 .my-plans-area {
     display: flex;
@@ -103,3 +103,45 @@
     text-align: center;
     color: #737272;
 }
+
+
+/* awlays section */
+.awlays-container {
+    width: 1140px;
+    height: 300px;
+    background-image: url("/images/watch.png"), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+.awlays-dataile {
+    padding: 59px 617px 59px 64px;
+
+}
+
+.awlays-dataile h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.awlays-dataile button {
+    width: 160px;
+    height: 64px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+}
+
+
+/* footer section  */
